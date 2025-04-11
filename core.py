@@ -265,5 +265,5 @@ class ClientThread(Thread):
             log_info(f"[INFO] IP {client_ip} Закрыт")
 
 if __name__ == "__main__":
-    server = Server("0.0.0.0", 9339)
+    server = Server("0.0.0.0", 11295)
     server.start()
