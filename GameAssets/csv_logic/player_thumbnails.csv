@@ -63,3 +63,14 @@ hero44,0,0,,Ruffs,sc/characters.sc,player_icon_ruffs,705
 rank01,0,0,,,sc/characters.sc,player_icon_starrforce_01,1000
 rank02,0,0,,,sc/characters.sc,player_icon_starrforce_02,1001
 hero45,0,0,,Roller,sc/characters.sc,player_icon_stu,112
+rank03,0,0,,,sc/characters.sc,player_icon_actionshow_01,1002
+rank04,0,0,,,sc/characters.sc,player_icon_actionshow_02,1003
+hero46,0,0,,ElectroSniper,sc/characters.sc,player_icon_belle,706
+hero47,0,0,,StickyBomb,sc/characters.sc,player_icon_squeak,508
+hero48,0,0,,RopeDude,sc/characters.sc,player_icon_buzz,707
+hero49,0,0,,AssaultShotgun,sc/characters.sc,player_icon_griff,408
+rank05,0,0,,,sc/characters.sc,player_icon_velocirapids_01,1004
+rank06,0,0,,,sc/characters.sc,player_icon_velocirapids_02,1005
+rank07,0,0,,,sc/characters.sc,player_icon_ft_01,1006
+rank08,0,0,,,sc/characters.sc,player_icon_ft_02,1007
+hero50,0,0,,Knight,sc/characters.sc,player_icon_ash,708

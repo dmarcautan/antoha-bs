@@ -18,16 +18,16 @@ class BattleResultMessage(Writer):
         tropGainded = 0
         tokenGained = 0
 		
-        rank_1_val = 595
-        rank_2_val = 595
-        rank_3_val = 499
-        rank_4_val = 410
-        rank_5_val = 368
-        rank_6_val = 234
-        rank_7_val = -105
-        rank_8_val = -49
-        rank_9_val = 12
-        rank_10_val = 9
+        rank_1_val = 789
+        rank_2_val = 789
+        rank_3_val = 789
+        rank_4_val = 740
+        rank_5_val = 655
+        rank_6_val = 520
+        rank_7_val = 438
+        rank_8_val = 277
+        rank_9_val = 125
+        rank_10_val = 52
         if self.player.rank == 1:
             tropGainded = rank_1_val
             tokenGained = random.randint(10,50)

@@ -26,13 +26,13 @@ class MilestonesClaimSupplyByLkPrtctrd(Writer):
             money = Lyney().GetAmountOfBox(boxtype)
             moneygive = [money]
             try:
-                del self.player.UnlockedBrawlers["48"]
+                del self.player.UnlockedBrawlers["51"]
             except KeyError:
                 pass
 
-            ownedbrs = [int(LkPrtctrd) for LkPrtctrd, x in self.player.UnlockedBrawlers.items() if int(x) == 1 and int(LkPrtctrd) < 46 and self.player.brawlerPoints.get(str(LkPrtctrd), 0) < self.MAX_BRAWLER_POINTS]
-            ownedbrsforall = [int(LkPrtctrd) for LkPrtctrd, x in self.player.UnlockedBrawlers.items() if int(x) == 1 and int(LkPrtctrd) < 46]
-            allbrswithoutown = [int(LkPrtctrd) for LkPrtctrd in range(46) if LkPrtctrd not in ownedbrsforall and LkPrtctrd != 33 and LkPrtctrd != 48]
+            ownedbrs = [int(LkPrtctrd) for LkPrtctrd, x in self.player.UnlockedBrawlers.items() if int(x) == 1 and int(LkPrtctrd) < 51 and self.player.brawlerPoints.get(str(LkPrtctrd), 0) < self.MAX_BRAWLER_POINTS]
+            ownedbrsforall = [int(LkPrtctrd) for LkPrtctrd, x in self.player.UnlockedBrawlers.items() if int(x) == 1 and int(LkPrtctrd) < 51]
+            allbrswithoutown = [int(LkPrtctrd) for LkPrtctrd in range(51) if LkPrtctrd not in ownedbrsforall and LkPrtctrd != 33 and LkPrtctrd != 51]
 
             if boxtype == 11:
                 ppcount = min(5, len(ownedbrs))
@@ -81,6 +81,7 @@ class MilestonesClaimSupplyByLkPrtctrd(Writer):
                 30: 4,
                 43: 4,
                 45: 4,
+                49: 4,
     # Мифические бравлеры (3% от общего числа)
                 36: 2,
                 29: 2,
@@ -88,6 +89,7 @@ class MilestonesClaimSupplyByLkPrtctrd(Writer):
                 17: 2,
                 21: 2,
                 42: 2,
+                47: 2,
     # Хроматические бравлеры (2% от общего числа)
                 37: 1,
                 31: 1,
@@ -97,6 +99,9 @@ class MilestonesClaimSupplyByLkPrtctrd(Writer):
                 39: 1,
                 41: 1,
                 44: 1,
+                46: 1,
+                48: 1,
+                50: 1,
     # Легендарные бравлеры (1-2% от общего числа)
                 5: 1,
                 12: 1,

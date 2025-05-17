@@ -43,15 +43,15 @@ for handler in urllib3_logger.handlers[:]:
 # Хуйня
 logger = logging.getLogger(__name__)
 
-bot = telebot.TeleBot('8135907735:AAG1vyxEIlkDjVIdFKbqsYrPfPQhy7H4oOU')  # Замените на ваш API ключ
+bot = telebot.TeleBot('7609686415:AAH4EwI8-H0bIj-EM5vS72yIHqlcrnwnKco')  # Замените на ваш API ключ
 
 # Айди пидоров старших и младших
 admins = {6232983488}
-tehs = {7253793021}
-managers = {7253793021}
-creator1 = {7253793021}
-creator2 = {7253793021}
-creator3 = {7253793021}
+tehs = {6509172107}
+managers = {6509172107}
+creator1 = {6509172107}
+creator2 = {6509172107}
+creator3 = {6509172107} 
  
 def init_db():
     conn = sqlite3.connect('users.db')  # Название созданной бд
@@ -70,7 +70,7 @@ init_db()
 def start(message):
     response = (
         'Добро пожаловать в бота!\n\n'
-        'TG: @v43_Brwwloweeen\n\n'
+        'TG: @carrybs3\n\n'
         '⛔Команды:\n\n'
         '/name [name] - Узнать об аккаунте\n'
         '/info [id] - Узнать об аккаунте.\n'
@@ -1322,7 +1322,7 @@ def add_offer(message):
 
         # Attempt to read and write the offers file
         try:
-            with open('Logic/offers.json', 'r', encoding='utf-8') as f:
+            with open('JSON/offers.json', 'r', encoding='utf-8') as f:
                 offers = json.load(f)
             offers[str(len(offers))] = new_offer
             

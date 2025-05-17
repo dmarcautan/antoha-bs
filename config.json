@@ -18,9 +18,19 @@
         2,
         4
     ],
-    "vips": [],
+    "vips": [
+        2
+    ],
     "banID": [],
-    "CCC": [],
+    "CCC": [
+        "ERFA",
+        "CarryPS",
+        "CARRY",
+        "CB",
+        "Carry",
+        "Carrybs",
+        "SashaPlayer"
+    ],
     "ClubBlock": [],
     "DelName": [],
     "PatchUrl": "http://192.168.0.103:8080",

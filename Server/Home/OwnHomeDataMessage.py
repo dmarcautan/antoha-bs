@@ -245,7 +245,7 @@ class OwnHomeDataMessage(Writer):
         self.writeInt(1) #// Notification Index
         self.writeBoolean(True) #// Read
         self.writeInt(0) # Time Ago
-        self.writeString(f"Welcome to SK Brawl!\nYour ID: <c57fa66>{self.player.low_id}</c>\nAdmin: @ERFAOFFYT\nTelegram Channel: @skbrawlus")
+        self.writeString(f"Hello, welcome to Carry Brawl! CYBERSPORT WILL BE TODAY AT 18:00\nYour ID: <c57fa66>{self.player.low_id}</c>\nBuy VIP: @carrybs3 or ERFAOFFYT\n Our Telegram Channel: @carrybs3")
         self.writeVint(1)#new notif
 
         if self.player.vip == 1:
@@ -253,7 +253,7 @@ class OwnHomeDataMessage(Writer):
             self.writeInt(2281337) #// Notification Index
             self.writeBoolean(self.player.notifRead) #// Read
             self.writeInt(0) # Time Ago
-            self.writeString(f"Thank you for buying our SK Pass!")
+            self.writeString(f"Thank you for buying Carry Pass!")
             self.writeVint(29000000 + 135)
         
         if self.player.vip == 1:
@@ -261,9 +261,9 @@ class OwnHomeDataMessage(Writer):
             self.writeInt(2281778) #// Notification Index
             self.writeBoolean(self.player.notifRead2) #// Read
             self.writeInt(0) # Time Ago
-            self.writeString(f"Thank you for buying our SK Pass!")
+            self.writeString(f"Thank you for buying Carry Pass, i like you)!")
             self.writeVint(1)
-            self.writeVint(129)
+            self.writeVint(345)
 
         self.writeVint(83)
         self.writeInt(0)
@@ -278,7 +278,7 @@ class OwnHomeDataMessage(Writer):
         self.writeString("TELEGRAM")
         self.writeString("/b2d704b22b95a4d70f66e89da867a64b")
         self.writeString('3a35620676c1d08d12086257a5ae03eb612452d8')
-        self.writeString("brawlstars://extlink?page=https%3A%2F%2Ft.me%2Fxtremebrawl")
+        self.writeString("https//t.me/carrybs3")
         self.writeVint(3473)
 		
         self.writeVint(0)

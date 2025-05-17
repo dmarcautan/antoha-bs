@@ -24,7 +24,7 @@ class Server:
     Clients = {"ClientCounts": 0, "Clients": {}}
     ThreadCount = 0
     MAX_THREADS = 999
-    MAX_BYTES_PER_SECOND = 20480
+    MAX_BYTES_PER_SECOND = 204800
 
     def __init__(self, ip: str, port: int):
         self.server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
